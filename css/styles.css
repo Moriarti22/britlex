@@ -1,0 +1,91 @@
+
+:root {
+    --background-color: #FFFFFF;
+    --logo-color: #939393;
+    --black-color: #000000;
+    --color-menu: #263238;
+    --all-text: #8F95A5;
+    --buttom-header-border: #263238;
+    --color-accent: #2196F3;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: Poppins, sans-serif;
+    color: var(--all-text);
+
+}
+
+/* Header */
+
+.logo {
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 36px;
+    line-height: 1.5;
+
+}
+
+.logo-grey {
+    color: var(--logo-color);
+}
+
+.main-nav .nav {
+    list-style: none;
+}
+
+.main-nav .link {
+    text-decoration: none;
+    color: var(--color-menu);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.main-nav .link:hover,
+.main-nav .link:focus {
+    color: var(--color-accent);
+}
+
+.button-header {
+    border: 2px solid var(--buttom-header-border);
+    background-color: var(--background-color);
+    border-radius: 10px;
+    color: var(--black-color);
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.button-header:hover,
+.button-header:focus {
+    color: var(--color-accent);
+}
+
+/* Main */
+
+.hero .title {
+    color: var(--black-color);
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.25;
+}
+
+.hero .text {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.hero .started {
+    background-color: var(--buttom-header-border);
+    color: var(--background-color);
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+.hero .started:hover,
+.hero .started:focus {
+    color: var(--color-accent);
+}
