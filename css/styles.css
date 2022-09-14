@@ -215,6 +215,11 @@ body {
     letter-spacing: 0.03em;
 }
 
+#contacts .email:hover,
+#contacts .email:focus {
+    color: var(--color-accent);
+}
+
 /* Footer */
 
 .rules {
