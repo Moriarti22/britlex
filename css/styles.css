@@ -140,6 +140,7 @@ img {
 /* Hero */
 
 .hero {
+    margin-top: 55px;
     padding-bottom: 180px;
 }
 
@@ -195,7 +196,6 @@ img {
 
 .hero-container {
     display: flex;
-    padding-top: 55px;
 }
 
 .hero .bulb {
