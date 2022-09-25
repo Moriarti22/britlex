@@ -507,10 +507,14 @@ img {
 }
 
 .rules .link {
+    display: inline-block;
     color: var(--all-text);
     font-size: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
+    padding-top: 31px;
+    padding-bottom: 31px;
 }
 
 .rules .link:hover,
@@ -523,4 +527,10 @@ img {
     border-top: 1px solid var(--line-footer);
     align-items: center;
     justify-content: space-between;
+}
+
+.logo-footer {
+    display: block;
+    padding-top: 22px;
+    padding-bottom: 22px;
 }
