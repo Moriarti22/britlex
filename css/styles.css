@@ -426,6 +426,7 @@ img {
     line-height: 1.5;
     border-radius: 5px;
 
+    padding: 5px 5px 4px 5px;
     width: 260px;
     margin-top: auto;
     justify-content: space-around;
