@@ -195,6 +195,7 @@ img {
 
 .hero-container {
     display: flex;
+    padding-top: 55px;
 }
 
 .hero .bulb {
